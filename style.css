@@ -16,6 +16,10 @@
     display: flex;
 }
 
+.custom-icon {
+    color: #8B9B7F;
+  }
+/* Navbar Section */
 nav{
     display: flex;
     justify-content: space-around;
@@ -49,3 +53,134 @@ nav{
 .navIcon i {
     font-size: 20px; 
 }
+
+
+/* Hero Section */
+
+.HeroSection{
+    margin: 0 auto;
+    
+}
+
+.hero{
+    margin: 30px ;
+    align-items: flex-start;
+    
+}
+
+
+
+.heroLeft div {
+    overflow: hidden;
+    justify-content: space-between;
+    gap: 20px;
+    margin-top: 20px;
+  }
+.heroLeft img {
+    overflow: hidden;
+    transition: transform 0.4s ease-in-out;
+    
+  }
+  
+  .heroLeft img:hover {
+    transform: scale(1.1);
+    
+    
+  }
+
+.heroRight{
+    padding: 0px 100px;
+    
+}
+
+    
+.heroLocation{
+    justify-content: space-between;
+}
+.heroLocation p{
+   color: #8B9B7F;
+}
+
+.heroTitle h1{
+    font-size: 50px;
+    font-weight: 600; 
+}
+
+.heroReview{
+font-size: 20px;
+align-items: center;
+margin: 10px 0;
+}
+
+.heroReview p{
+    font-size: 15px;
+    margin-left: 5px;
+}
+
+.heroPrice h3{
+    font-size: 30px;
+    font-weight: 700;
+}
+
+.heroFeature{
+    flex-direction: column;
+    margin: 10px 0;
+}
+.heroFeature i{
+margin: 0 10px ;
+font-size: 20px;
+}
+
+.availabeColorText{
+margin: 10px 0;
+
+}
+.availableColorsImage {  
+ flex-wrap: wrap;
+ width: 80%;
+ gap: 10px;
+ 
+
+}
+
+.availableColorsImage img{
+border-radius: 10px;
+transition-duration: 0.4s;
+
+}
+.availableColorsImage img:hover{
+    scale: 1.1;
+    
+}
+
+.help{
+    margin: 10px 0;
+    align-items: center;
+    gap: 10px;
+}
+
+.size{
+    gap: 10px;
+}
+
+.size p{
+    font-weight: 500;
+}
+.size-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+    gap: 12px;
+    max-width: 600px;
+    margin: 20px 0;
+    
+  }
+
+  .size-box {
+    padding: 15px 10px;
+    text-align: center;
+    border: 1px solid black;
+    border-radius: 10px;
+    font-size: 16px;
+    font-weight: 400;
+  }
+  
