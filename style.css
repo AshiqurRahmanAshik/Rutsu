@@ -221,3 +221,117 @@ transition-duration: 0.4s;
     width: 100%;
 
 }
+
+/* feature section */
+
+.features-section {
+    padding: 60px 20px;
+    max-width: 1200px;
+    margin: auto;
+  }
+
+  .features-section h2 {
+    text-align: center;
+    font-size: 2rem;
+    margin-bottom: 10px;
+  }
+
+  .features-section hr {
+    width: 80%;
+    margin: 0 auto 20px;
+    border: 1px solid #000;
+  }
+
+  .features-section p.subtitle {
+    text-align: center;
+    font-size: 1.5rem;
+    margin-bottom: 40px;
+  }
+
+  .features-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 30px;
+  }
+
+  .feature-item {
+    display: flex;
+    align-items: flex-start;
+    gap: 15px;
+  }
+
+  
+
+  .feature-text h3 {
+    font-size: 1.1rem;
+    margin: 0 0 8px;
+    font-weight: bold;
+  }
+
+  .feature-text p {
+    margin: 0;
+    font-size: 0.95rem;
+    line-height: 1.5;
+  }
+
+  /* Display product section */
+.display-products{
+    padding: 100px;
+    justify-content: space-around;
+}
+
+.display-products img{
+    border-radius: 10px;
+}
+
+.fit-finder h2{
+font-size: 25px;
+font-weight: 500;
+text-align: center;
+}
+
+.fit-finder hr{
+    width: 80%;
+    margin: 20px auto;
+
+}
+.fit-finder img{
+    margin: 0 auto;
+}
+
+/* Shopping Section */
+.shopping-section{
+    gap: 20px;
+   padding: 100px;
+}
+
+.shopping-section h4{
+    font-size: 25px;
+}
+
+/* FAQ */
+.FAQ{
+    padding: 100px;
+}
+
+.FAQ h1{
+   text-align: center;
+   font-weight: 600;
+   font-size: 40px;
+}
+.FAQ hr{
+    margin: 30px 0 ;
+}
+
+.collapse {
+    margin: 20px 0;
+}
+.collapse div{
+    background-color: #e8f0e3;
+    font-size: 20px;
+    
+}
+
+.collapse-title , .collapse-content{
+    padding: 0 10px;
+}
